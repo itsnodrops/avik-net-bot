@@ -96,11 +96,12 @@ avik-net-bot/
 
 ## Features Explained
 
-- Authenticate using account(s) credentials in `config.json`
-- Process accounts with proxy from `proxy.txt` file(if available)
+- Authenticate using account(s) credentials in `data.txt`
+- Process accounts with proxy from `proxies.txt` file(if available)
 - Fetch signed price data from Stork Oracle API
 - Validate and submit results at regular intervals
 - Display real-time validation statistics
+- Bulk-register new account
 
 ## Troubleshooting
 
