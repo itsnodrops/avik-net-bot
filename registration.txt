@@ -1,0 +1,3 @@
+email1@mail.com,password1,inviteCode
+email1@mai2.com,password2,inviteCode
+email1@mai3.com,password3,inviteCode
