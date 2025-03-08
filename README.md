@@ -60,7 +60,7 @@ nano proxies.txt
 2. Add one proxy per line in any of these formats:
 
    HTTP proxies: `host:port:user:pass`
-   > Please leave proxies.txt empty if you don't have one.
+   > Please leave `proxies.txt` empty if you don't have one.
 
 ### Optional: Bulk Registration
 
