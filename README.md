@@ -47,7 +47,7 @@ nano data.txt
 
 > - Replace `username` and `password` value with your actual credentials
 
-#### Optional: Proxy Configuration
+### Optional: Proxy Configuration
 
 To use proxy servers for distribution of requests:
 
@@ -62,7 +62,7 @@ nano proxies.txt
    HTTP proxies: `host:port:user:pass`
    > Please leave proxies.txt empty if you don't have one.
 
-#### Optional: Bulk Registration
+### Optional: Bulk Registration
 
 To create multiple accounts, save credentials in `registration.txt` (one per line, format: `email,password,invitecode`).
 
