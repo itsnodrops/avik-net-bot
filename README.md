@@ -36,7 +36,7 @@ npm install
 
 ### 2. Running the Bot
 
-Add your OpenLoop account credentials to the `data.txt` file with the following format:
+Add your Kivanet account credentials to the `data.txt` file with the following format:
 
 > `email1@mail.com,password1` \
 > `email2@mail.com,password2`
