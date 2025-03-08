@@ -97,19 +97,19 @@ avik-net-bot/
 ## Features Explained
 
 - Authenticate using account(s) credentials in `data.txt`
-- Process accounts with proxy from `proxies.txt` file(if available)
-- Fetch signed price data from Stork Oracle API
-- Validate and submit results at regular intervals
+- Process account(s) with proxy from `proxies.txt` file(if available)
+- Start sign-in(s) for mine $KIVA
+- Complete available task(s)
 - Display real-time validation statistics
-- Bulk-register new account
+- Bulk-register new account(s)
 
 ## Troubleshooting
 
-- Authentication Error: Ensure your username and password are correct in config.json
-- Bot Fails to Start: Check if config.json is properly formatted
+- Authentication Error: Ensure your username and password are correct in `data.txt`
+- Bot Fails to Start: Check if `data.txt` is properly formatted
 - Token Expired Issues: Delete tokens.json and restart the bot
-- Connection Issues: Verify your internet connection and Stork Oracle API availability
-- Proxy Errors: Ensure proxies.txt is correctly formatted
+- Connection Issues: Verify your internet connection and Kivanet API availability
+- Proxy Errors: Ensure `proxies.txt` is correctly formatted
 
 ## Support & Links
 
@@ -118,7 +118,7 @@ avik-net-bot/
 
 ## Security Notice
 
-Important: Your credentials are sensitive information. Never share them with anyone and ensure `config.json` is properly secured.
+Important: Your credentials are sensitive information. Never share them with anyone and ensure `data.txt` & `registration.txt` is properly secured.
 
 ## Contributing
 
