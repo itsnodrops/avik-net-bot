@@ -36,7 +36,7 @@ npm install
 
 ### 2. Running the Bot
 
-Add your Kivanet account credentials to the `data.txt` file with the following format:
+- Add your Kivanet account credentials to the `data.txt` file with the following format:
 
 > `email1@mail.com,password1` \
 > `email2@mail.com,password2`
@@ -45,26 +45,29 @@ Add your Kivanet account credentials to the `data.txt` file with the following f
 nano data.txt
 ```
 
-> - Replace `username` and `password` value with your actual credentials
+> - Replace `username` and `password` value with your actual credentials 
+> - Save your credentials with `CTRL+X` `y` then `ENTER`
+
+- Start the bot by run:
+```bash
+npm start
+```
 
 ### Optional: Proxy Configuration
 
 To use proxy servers for distribution of requests:
 
-1. Edit `proxies.txt` file in the project root
+- Edit `proxies.txt` file in the project root and add one proxy per line in any of these formats: 
+> `host:port:user:pass` \
+> Please leave `proxies.txt` empty if you don't have one.
 
 ```bash
 nano proxies.txt
 ```
 
-2. Add one proxy per line in any of these formats:
-
-   HTTP proxies: `host:port:user:pass`
-   > Please leave `proxies.txt` empty if you don't have one.
-
 ### Optional: Bulk Registration
 
-To create multiple accounts, save credentials in `registration.txt` (one per line, format: `email,password,invitecode`).
+- To create multiple accounts, save credentials in `registration.txt` (one per line, format: `email,password,invitecode`).
 
 > `email1@mail.com,password1,invteCode` \
 > `email2@mail.com,password2,inviteCode`
@@ -73,9 +76,15 @@ To create multiple accounts, save credentials in `registration.txt` (one per lin
  nano registration.txt
 ```
 
-> - Replace `username`, `password` and `inviteCode` value with your actual credentials
+> - Replace `username`, `password` and `inviteCode` value with your actual credentials 
+> - Save your credentials with `CTRL+X` `y` then `ENTER`
 
 Then, verify the account by following the steps from [here](https://kivanet.com/en.html)
+
+- Register in bulk by run:
+```bash
+npm run nuyul
+```
 
 ## Project Structure
 
